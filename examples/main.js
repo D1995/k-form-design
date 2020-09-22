@@ -51,6 +51,7 @@ import KFormDesign from "../packages/index";
 // });
 Vue.use(KFormDesign);
 Vue.config.productionTip = false;
+Vue.config.devtools = true;
 
 new Vue({
   router,
