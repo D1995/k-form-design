@@ -1,5 +1,5 @@
 <template>
   <div>
-    <k-form-design :custom-style="{'color':'red'}"/>
+    <k-form-design />
   </div>
 </template>

@@ -12,7 +12,7 @@
           <a-radio-group buttonStyle="solid" v-model="config.layout">
             <a-radio-button value="horizontal">水平</a-radio-button>
             <a-radio-button value="vertical">垂直</a-radio-button>
-            <a-radio-button value="inline">行内</a-radio-button>
+<!--            <a-radio-button value="inline">行内</a-radio-button>-->
           </a-radio-group>
         </a-form-item>
         <a-form-item label="labelCol（水平布局生效）">
@@ -37,9 +37,9 @@
         <a-form-item label="预览模态框宽度">
           <a-input-number style="width:100%;" v-model="previewOptions.width" />
         </a-form-item>
-        <a-form-item label="表单CSS">
-          <a-input v-model="config.customStyle" />
-        </a-form-item>
+<!--        <a-form-item label="表单CSS">-->
+<!--          <a-input v-model="config.customStyle" />-->
+<!--        </a-form-item>-->
         <a-form-item label="表单属性">
           <kCheckbox
             v-if="typeof config.hideRequiredMark !== 'undefined'"

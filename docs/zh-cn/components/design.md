@@ -239,8 +239,7 @@ export default {
         'importJson',
         'exportJson',
         'exportCode',
-        'reset',
-        'close'
+        'reset'
       ]</td>
         <td>3.0.7</td>
       </tr>

@@ -19,7 +19,7 @@ export default {
       type: Object,
       default: () => {
         return {
-          backgroundColor: "#13c2c2"
+          color: "#fff"
         };
       }
     }

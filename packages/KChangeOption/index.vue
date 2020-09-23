@@ -118,6 +118,7 @@ export default {
   height: 38px;
   padding-bottom: 6px;
   .option-delete-box {
+    cursor: pointer;
     margin-top: 3px;
     background: #ffe9e9;
     color: #f22;
