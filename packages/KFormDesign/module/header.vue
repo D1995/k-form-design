@@ -6,7 +6,7 @@
  * @LastEditTime: 2020-03-26 20:18:56
  -->
 <template>
-  <header class="header" v-text="title"></header>
+  <header class="header" v-text="title" :style="customStyle"></header>
 </template>
 <script>
 export default {
@@ -14,6 +14,14 @@ export default {
     title: {
       type: String,
       default: "表单设计器 --by kcz"
+    },
+    customStyle: {
+      type: Object,
+      default: () => {
+        return {
+          backgroundColor: "#13c2c2"
+        };
+      }
     }
   }
 };

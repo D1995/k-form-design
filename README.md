@@ -18,11 +18,11 @@
 
 参考项目[vue-form-making](https://github.com/GavinZhuLei/vue-form-making)，基于vue和ant-design-vue实现的表单设计器，样式使用less作为开发语言，主要功能是能通过简单操作来生成配置表单，生成可保存的JSON数据，并能将JSON还原成表单，使表单开发更简单更快速
 
-- [github](https://github.com/Kchengz/k-form-design)
+- [github](https://github.com/D1995/k-form-design)
 - [码云](https://gitee.com/kcz66/k-form-design)
 - [项目预览](http://cdn.kcz66.com/k-form-design.html)
-- [项目文档 Github Pages](https://kchengz.github.io/k-form-design/)
-- [项目文档 Gitee Pages 较快](http://kcz66.gitee.io/k-form-design/#/)
+- [项目文档 Github Pages](https://D1995.github.io/k-form-design/)
+
 
 ## 特性
 - 可视化配置页面

@@ -1,7 +1,7 @@
 <template>
   <a-config-provider :locale="locale">
     <div class="form-designer-container-9136076486841527">
-      <k-header v-if="showHead" :title="title" />
+      <k-header v-if="showHead" :title="title" :custom-style="customStyle"/>
       <!-- 操作区域 start -->
       <operatingArea
         v-if="toolbarsTop"
@@ -179,6 +179,14 @@ export default {
     title: {
       type: String,
       default: "表单设计器 --by kcz"
+    },
+    customStyle: {
+      type: Object,
+      default: () => {
+        return {
+          backgroundColor: "#13c2c2"
+        };
+      }
     },
     showHead: {
       type: Boolean,

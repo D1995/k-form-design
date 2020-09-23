@@ -216,6 +216,13 @@ export default {
         <td></td>
       </tr>
       <tr>
+        <td>customStyle</td>
+        <td>自定义样式</td>
+        <td>object</td>
+        <td></td>
+        <td></td>
+        </tr>
+      <tr>
         <td>showHead</td>
         <td>是否显示head部分</td>
         <td>boolean</td>
