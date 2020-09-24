@@ -13,12 +13,12 @@
           <a-input v-model="selectItem.label" placeholder="请输入" />
         </a-form-item>
 
-        <a-form-item
-          v-if="!hideModel && typeof selectItem.model !== 'undefined'"
-          label="数据字段"
-        >
-          <a-input v-model="selectItem.model" placeholder="请输入" />
-        </a-form-item>
+<!--        <a-form-item-->
+<!--          v-if="!hideModel && typeof selectItem.model !== 'undefined'"-->
+<!--          label="数据字段"-->
+<!--        >-->
+<!--          <a-input v-model="selectItem.model" placeholder="请输入" />-->
+<!--        </a-form-item>-->
         <!-- input type start -->
         <a-form-item v-if="selectItem.type === 'input'" label="输入框type">
           <a-input v-model="options.type" placeholder="请输入" />
